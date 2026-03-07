@@ -1,14 +1,13 @@
 #include<stdio.h>
+struct emp
+{
+	char gender:1;
+	char mar_stat:5;
+	char hobby:3;
+	char sceme:4;
+};
 int main()
 {
-	int n,sum=0,digit;
-	printf("enter the numbers");
-	scanf("%d",&n);
-	while(n>0)
-	{
-		digit=n%10;
-	sum=sum+digit;
-	n=n/10;
-	}
-	printf("sum of digit:%d",sum);
+struct emp e;
+printf("%zu",sizeof(e));
 }
