@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+	int a=10;
+	a+=10;
+	printf("after:%d\n",a);
+	a-=10;
+	printf("after:%d\n",a);
+	a*=10;
+	printf("after:%d\n",a);
+	a/=10;
+	printf("after:%d\n",a);
+	a%=10;
+	printf("after:%d\n",a);
+	return 0;
+}
