@@ -1,0 +1,12 @@
+//Change Value of Constant Integer Using Pointer
+
+#include<stdio.h>
+int main()
+{
+    int a=10;
+    int *p=(int *)&a;
+    *p=20;
+    printf("value:%d\n",a);
+    printf("value:%d",*p);
+    return 0;
+}

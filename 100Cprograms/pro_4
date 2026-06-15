@@ -1,0 +1,12 @@
+// 4 Write a program to Accept two numbers as input Calculate the difference between the two numbers Display the result? 
+
+
+#include<stdio.h>
+int main()
+{
+    int a,b,diff;
+    printf("enter the number:");
+    scanf("%d %d",&a,&b);
+    diff=a-b;
+    printf("difference:%d\n",diff);
+}
