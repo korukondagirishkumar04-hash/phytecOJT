@@ -1,0 +1,16 @@
+@startuml 
+start
+
+:READ NUM;
+
+if ( num % 2==0) then (yes)
+
+    :print"even number";
+else(no)
+    :print "odd number";
+endif
+
+stop
+
+
+@enduml

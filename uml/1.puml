@@ -1,0 +1,17 @@
+@startuml checkBalance_function
+
+start
+
+:Print "--- Account Balance ---";
+:Print Account Holder Name;
+:Input Balance;
+
+if (Balance >= 0 ?) then (Yes)
+    :Print "Current Balance = ", Balance;
+else (No)
+    :Print "Invalid Balance";
+endif
+
+stop
+
+@enduml
