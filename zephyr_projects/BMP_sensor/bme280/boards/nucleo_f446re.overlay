@@ -1,0 +1,30 @@
+/* File: nucleo_f446re.overlay */
+/ {
+    zephyr {
+        chosen {
+           zephyr,sensor = &bme280;
+        };
+     };
+};
+
+/* I2C1 On NUCLEO-F446RE (pins PB8=SCL, PB9=SDA) */
+&i2c1 {
+     status = "okay";
+     clock-frequency = <I2C_BITRATE_STANDARD>;  /*100 kHz */
+     pinctrl-0 = <&i2c1_scl_pb8 &i2c1_sda_pb9>;
+     pinctrl-names = "default";
+
+     bme280: bme280@77 {
+        compatible = "bosch,bme280";
+        reg = <0x77>;                   /*I2C address:0x76 (use 0x77 if needed) */
+        label = "BME280";
+     };
+};
+/* USART1 on NUCLEO-F446RE (pins PA9=TX, PA10=RX) — WE10 WiFi module */
+&usart1 {
+    status = "okay";
+    current-speed = <38400>;   /* set to WE10's actual baud rate */
+    pinctrl-0 = <&usart1_tx_pa9 &usart1_rx_pa10>;
+    pinctrl-names = "default";
+};
+

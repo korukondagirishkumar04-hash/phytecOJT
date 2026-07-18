@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "/home/girish/Zephyr-Development-STM32/zephyr/boards/others/rugged_board/Kconfig.rugged_board"

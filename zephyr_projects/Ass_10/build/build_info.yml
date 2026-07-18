@@ -1,0 +1,58 @@
+cmake:
+  application:
+    configuration-dir: '/home/girish/Zephyr-Development-STM32/zephyr/samples/basic/my_projects/Ass_10'
+    source-dir: '/home/girish/Zephyr-Development-STM32/zephyr/samples/basic/my_projects/Ass_10'
+  board:
+    name: 'gan_board'
+    path:
+     - '/home/girish/Zephyr-Development-STM32/zephyr/boards/others/gan_board'
+    qualifiers: 'stm32f446xx'
+    revision: '1.1.0'
+  devicetree:
+    bindings-dirs:
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/bindings'
+    files:
+     - '/home/girish/Zephyr-Development-STM32/zephyr/boards/others/gan_board/gan_board.dts'
+    include-dirs:
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/ambiq/dts'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/atmel/include'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/bouffalolab/include'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/bouffalolab/include/zephyr'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/gigadevice/include'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/microchip/include'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/microchip/dts'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/nuvoton/dts'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/nxp/dts'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/stm32/dts'
+     - '/home/girish/Zephyr-Development-STM32/modules/hal/ti/dts'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/include'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/include/zephyr'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/common'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/vendor'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/rx'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/x86'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/xtensa'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/sparc'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/riscv'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/posix'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/arm64'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/arm'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts/arc'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/dts'
+  kconfig:
+    files:
+     - '/home/girish/Zephyr-Development-STM32/zephyr/boards/others/gan_board/gan_board_defconfig'
+     - '/home/girish/Zephyr-Development-STM32/zephyr/samples/basic/my_projects/Ass_10/prj.conf'
+    user-files:
+     - '/home/girish/Zephyr-Development-STM32/zephyr/samples/basic/my_projects/Ass_10/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/girish/Zephyr-Development-STM32/zephyr-sdk-0.17.2/zephyr-sdk-0.17.2'
+  zephyr:
+    version: '4.2.0'
+    zephyr-base: '/home/girish/Zephyr-Development-STM32/zephyr'
+version: '0.1.0'
+west:
+  command: '/home/girish/Zephyr-Development-STM32/.venv/bin/west build -b gan_board -p always'
+  topdir: '/home/girish/Zephyr-Development-STM32'
+  version: '1.5.0'

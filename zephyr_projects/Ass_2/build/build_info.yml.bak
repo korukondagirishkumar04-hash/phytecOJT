@@ -1,0 +1,5 @@
+west:
+  command: /home/girish/Zephyr-Development-STM32/.venv/bin/west build -b rugged_board
+    -p always
+  topdir: /home/girish/Zephyr-Development-STM32
+  version: 1.5.0

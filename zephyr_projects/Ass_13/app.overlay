@@ -1,0 +1,19 @@
+// License-Identifiers:PHYTEC INDIA
+//Author:K.Girish kumar
+
+
+
+
+/ {
+    aliases {
+        led0 = &user_led;
+    };
+
+    leds: leds {
+        compatible = "gpio-leds";
+        user_led: led_0 {
+            gpios = <&gpiob 0 GPIO_ACTIVE_HIGH>;
+            label = "User LED";
+        };
+    };
+};
