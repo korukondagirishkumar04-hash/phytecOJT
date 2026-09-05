@@ -1,0 +1,2 @@
+../Core/Src/flame_sensor.c:3:6:Flame_Init	1
+../Core/Src/flame_sensor.c:9:9:Flame_Detected	1

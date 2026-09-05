@@ -1,8 +1,0 @@
-@startuml
-start
-:write a,b;
-:sum=a+b;
-:avg=a+b/2;
-:print avg,sum;
-stop
-@enduml

@@ -1,7 +1,0 @@
-@startuml
-start
-:read l,b;
-:area=l*b;
-:print;
-stop 
-@enduml

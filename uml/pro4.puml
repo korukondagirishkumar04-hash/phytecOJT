@@ -1,8 +1,0 @@
-@startuml 
-start
-:read P,T,R,SI;
-:declare values;
-:SI=(P*T*R)/100;
-:PRINT;
-stop
-@enduml

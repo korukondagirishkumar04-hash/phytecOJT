@@ -1,0 +1,12 @@
+../Core/Src/main.c:71:5:main	1
+../Core/Src/main.c:119:6:SystemClock_Config	3
+../Core/Src/main.c:167:13:MX_USART1_UART_Init	2
+../Core/Src/main.c:200:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:232:13:MX_GPIO_Init	1
+../Core/Src/main.c:270:10:send_cmd	2
+../Core/Src/main.c:265:6:WE10_Init	1
+../Core/Src/main.c:309:10:send_cmd	3
+../Core/Src/main.c:305:6:MQTT_Init	1
+../Core/Src/main.c:352:10:receive_data	2
+../Core/Src/main.c:348:6:mqtt_data_send	4
+../Core/Src/main.c:383:6:Error_Handler	1

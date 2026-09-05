@@ -1,7 +1,0 @@
-@startuml 
-start
-:READ A,B;
-:DIFF= A - B;
-:PRINT;
-STOP
-@enduml

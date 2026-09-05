@@ -1,0 +1,8 @@
+../Core/Src/main.c:36:6:DisplayTens	2
+../Core/Src/main.c:45:6:DisplayOnes	2
+../Core/Src/main.c:54:6:DisplayTwoDigits	1
+../Core/Src/main.c:66:5:main	4
+../Core/Src/main.c:101:6:SystemClock_Config	3
+../Core/Src/main.c:136:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:150:13:MX_GPIO_Init	1
+../Core/Src/main.c:179:6:Error_Handler	1

@@ -1,0 +1,5 @@
+../Core/Src/dht11.c:8:6:delay_us	2
+../Core/Src/dht11.c:14:6:DHT11_Start	1
+../Core/Src/dht11.c:37:9:DHT11_Check_Response	3
+../Core/Src/dht11.c:54:9:DHT11_Read_Byte	5
+../Core/Src/dht11.c:74:6:DHT11_Read_Data	3

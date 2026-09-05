@@ -1,0 +1,4 @@
+../Core/Src/ultrasonic.c:5:6:Ultrasonic_Init	16	static
+../Core/Src/ultrasonic.c:14:13:delay_us	16	static
+../Core/Src/ultrasonic.c:20:10:Ultrasonic_Read_cm	16	static
+../Core/Src/ultrasonic.c:46:9:Ultrasonic_ObstacleDetected	16	static
