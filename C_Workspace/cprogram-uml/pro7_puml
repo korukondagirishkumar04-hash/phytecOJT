@@ -1,0 +1,7 @@
+@startuml
+start
+:READ BASE,EXP;
+:RESULT=POW(BASE,EXP);
+:PRINT ;
+stop 
+@enduml

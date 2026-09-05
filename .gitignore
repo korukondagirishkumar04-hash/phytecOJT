@@ -1,0 +1,19 @@
+# KiCad history
+**/.history/
+
+# Zephyr build folders
+**/build/
+
+# Zephyr generated binaries
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+
+# VS Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc

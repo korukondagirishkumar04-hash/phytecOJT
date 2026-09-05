@@ -1,0 +1,14 @@
+// 6 Write a program to Accept two integers as input (  a  and  b  ) Compute the quotient and remainder when  a  is divided by  b  Display the results?
+
+#include<stdio.h>
+int main()
+{
+    int a,b,quotient,remainder;
+    printf("enter the number:");
+    scanf("%d %d",&a,&b);
+    quotient=a/b;
+    remainder=a%b;
+    printf("quotient:%d\n",quotient);
+    printf("remainder:%d\n",remainder);
+    return 0;
+}
